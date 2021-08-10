@@ -1,0 +1,9 @@
+global-styling:
+  version: 0.0.1
+  css:
+    theme:
+      static/css/style.css: {}
+
+global-scripting:
+  js:
+    static/js/script.js: {}

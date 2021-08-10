@@ -1,0 +1,11 @@
+name: ancus
+type: theme
+description: ancus main theme
+version: 0.0.1
+base theme: false
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+libraries:
+  - ancus/global-styling
+  - ancus/global-scripting
