@@ -9,3 +9,14 @@ core_version_requirement: ^8 || ^9
 libraries:
   - ancus/global-styling
   - ancus/global-scripting
+  - ancus/bootstrap
+
+regions:
+  header:	'MyHeader'
+  content: 'MyContent'
+  services: 'MyServices'
+  sidebar_first: "MySidebarA"
+  sidebar_second: "MySidebarB"
+  page_top: "MyTop"
+  page_bottom: "MyBottom"
+  footer: 'MyFooter'
