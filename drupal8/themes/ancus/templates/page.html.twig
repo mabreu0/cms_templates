@@ -45,19 +45,12 @@
  * @ingroup themeable
  */
 #}
-	{#
+<div class="layout-container container-fluid">
+
   <header role="banner">
     {{ page.header }}
   </header>
-	#}
 
-	{% if page.header %}
-		<nav class="navbar">
-			<div class="container-fluid">{{ page.header }}</div>
-		</nav>
-	{% endif %}
-
-{#
   {{ page.primary_menu }}
   {{ page.secondary_menu }}
 
@@ -87,7 +80,6 @@
     {% endif %}
 
   </main>
-#}
 
   {% if page.footer %}
     <footer role="contentinfo">
@@ -95,4 +87,4 @@
     </footer>
   {% endif %}
 
-</div>
+</div>{# /.layout-container #}

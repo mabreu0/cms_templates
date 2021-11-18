@@ -1,0 +1,5 @@
+hello:
+  version : 0.0.1
+  css:
+    theme:
+      css/hello.css: {}

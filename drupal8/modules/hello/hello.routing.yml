@@ -1,0 +1,6 @@
+hello:
+  path: '/hello/setserviceblock'
+  defaults:
+    _controller: '\Drupal\hello\Plugin\Block\CustomServiceBlock::build'
+  requirements:
+    _permissions: 'access content'
