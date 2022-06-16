@@ -1,0 +1,7 @@
+about_menu.default:
+  path: '/about/us'
+  defaults:
+    _title: 'About-us'
+    _controller: '\Drupal\about_menu\Controller\AboutUsOptionController::aboutUsOption'
+  requirements:
+    _permission: 'access content'
