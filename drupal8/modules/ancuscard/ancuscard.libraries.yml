@@ -1,0 +1,5 @@
+ancuscard:
+  version : 0.0.1
+  css:
+    theme:
+      css/ancuscard.css: {}

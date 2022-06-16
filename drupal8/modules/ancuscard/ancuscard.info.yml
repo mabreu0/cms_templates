@@ -1,5 +1,5 @@
-name: hello
-description: saludador
+name: ancuscard 
+description: UI card to display services or products
 package: ancusModule
 type: module
 core: 8.x
@@ -9,4 +9,4 @@ dependencies:
   - drupal:block
   - drupal:node
 libraries:
-  - hello/hello
+  - ancuscard/ancuscard

@@ -1,0 +1,6 @@
+ancuscard:
+  path: '/ancuscard/setserviceblock'
+  defaults:
+    _controller: '\Drupal\ancuscard\Plugin\Block\CustomServiceBlock::build'
+  requirements:
+    _permissions: 'access content'

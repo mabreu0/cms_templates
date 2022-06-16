@@ -1,10 +1,10 @@
 <?php
    /**
-   * Custom block to display service cards 
+   * Custom drupal block to display service cards 
    *
    */
 
-   namespace Drupal\hello\Plugin\Block;
+   namespace Drupal\ancuscard\Plugin\Block;
 
    use Drupal\Core\Block\BlockBase;
 
@@ -23,7 +23,7 @@
        */
       public function build() {
          return [
-            '#attached' => array('library' => array('hello/hello')),
+            '#attached' => array('library' => array('ancuscard/ancuscard')),
             '#type' => 'markup',
             '#markup' => '<h1>Service Card 1</h1>'
          ];
