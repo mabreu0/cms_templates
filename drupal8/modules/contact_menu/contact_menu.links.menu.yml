@@ -1,0 +1,5 @@
+contact_menu.default:
+  title: 'Contactos'
+  route_name: contact_menu.default
+  weight: 100
+  menu_name: main

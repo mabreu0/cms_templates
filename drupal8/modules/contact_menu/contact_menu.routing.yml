@@ -1,0 +1,7 @@
+contact_menu.default:
+  path: '/contact'
+  defaults:
+    _title: 'Contactenos'
+    _controller: '\Drupal\contact_menu\Controller\ContactUsOptionController::contactUs'
+  requirements:
+    _permission: 'access content'

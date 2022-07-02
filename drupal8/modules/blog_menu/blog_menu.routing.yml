@@ -1,0 +1,7 @@
+blog_menu.default:
+  path: '/blogging'
+  defaults:
+    _title: 'Blog'
+    _controller: '\Drupal\contact_menu\Controller\BlogOptionController::blogPage'
+  requirements:
+    _permission: 'access content'
